@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"; 
-import myImage from "./assets/object.png"; 
+
 
 
 export default function Header() {
