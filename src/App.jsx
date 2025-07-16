@@ -2,7 +2,8 @@ import Home from "./home";
 import Header from "./header";
 import Projects from "./projects"; 
 import About from "./about"; 
-import Contact from "./contact"; 
+import ContactForm from './contactForm';
+import Footer from "./footer"; 
 
 export default function App() {
   return (
@@ -12,8 +13,10 @@ export default function App() {
         <section id="home"><Home /></section>
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
-        <section id="contact"><Contact /></section>
+        <ContactForm />
+        <section id="footer"><Footer /></section>
       </main>
     </div>
   );
 }
+

@@ -10,7 +10,8 @@ export default {
           marker: ['"LXGW Marker Gothic"', 'sans-serif'],
         },
         colors: {
-          background: "#1881a1",
+          background: "#79B0B7",
+          text: "#E06321",
         }
       },
     },

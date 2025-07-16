@@ -1,5 +1,6 @@
 import React from 'react'
 import wecheck from "./assets/wecheck.png"
+import still from "./assets/yoga.jpg"
 
 
 const projects = [
@@ -13,6 +14,7 @@ const projects = [
     title: 'Still',
     description: 'An AI integrated mood identifier where people can express and learn about their feelings ',
     link: '',
+    image: still, 
   },
 ];
 

@@ -3,14 +3,13 @@ import profilePic from "./assets/pfp.JPG"
 
 export default function About() {
   return (
-    <section id="about" className="bg-[#0f172a] text-white py-16 px-6">
-      <h2 className="text-4xl font-bold mb-10 border-b-4 border-blue-600 inline-block">About Me</h2>
+    <section id="about" className="bg-background text-white py-16 px-6">
+      <h2 className="text-4xl font-bold mb-10 font-mono inline-block">About Me</h2>
       <div className="grid md:grid-cols-3 gap-10 items-center max-w-6xl mx-auto">
         
         {/* Bio + Info */}
         <div className="md:col-span-2 space-y-6">
           <div>
-            <h3 className="text-xl font-semibold flex items-center gap-2">📄 Bio</h3>
             <p className="text-gray-300 mt-2">
               I'm a Computer Science student passionate about full-stack development and user-centered design.
               I combine creativity and technical skill to build intuitive web applications.
@@ -22,6 +21,7 @@ export default function About() {
             <div className="bg-[#1e293b] p-6 rounded-lg">
               <h4 className="text-lg font-bold mb-1">🎓 Education</h4>
               <p className="font-medium">B.A. in Computer Science</p>
+              <p className="font-medium">Minor in Data Science</p>
               <p className="text-sm text-gray-400">University of Virginia</p>
               <p className="text-sm text-gray-400">2023 – Present</p>
               <p className="text-sm text-blue-400">Dean’s List (2024)</p>
@@ -57,7 +57,7 @@ export default function About() {
 
           {/* Resume Button */}
           <a
-            href="/resume.pdf" // Replace with your resume path
+            href="/assets/LexieChen.pdf"
             className="inline-block bg-blue-600 text-white px-5 py-2 rounded-full font-semibold hover:opacity-90"
             download
           >
