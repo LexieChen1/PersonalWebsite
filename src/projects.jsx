@@ -1,6 +1,7 @@
 import React from 'react'
 import wecheck from "./assets/wecheck.png"
 import still from "./assets/yoga.jpg"
+import da from "../public/da.png"
 
 
 const projects = [
@@ -15,6 +16,12 @@ const projects = [
     description: 'An AI integrated mood identifier where people can express and learn about their feelings ',
     link: '',
     image: still, 
+  },
+  {
+    title: 'Data Analysis for WTV Consulting',
+    description: 'Created interactive dashboards to visualize patient trends and referrals for a health clinic.',
+    link: 'https://public.tableau.com/app/profile/paige.lynch/viz/WTVDashboardHealthcareOperationalDataInitiative/WTVConsultingDashboard1',
+    image: da, 
   },
 ];
 
