@@ -1,7 +1,7 @@
 import React from 'react'
 import wecheck from "./assets/wecheck.png"
 import still from "./assets/yoga.jpg"
-import da from "../public/da.png"
+import da from "./assets/da.png"; 
 
 
 const projects = [
