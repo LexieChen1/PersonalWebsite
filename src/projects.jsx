@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Still',
     description: 'An AI integrated mood identifier where people can express and learn about their feelings ',
-    link: '',
+    link: 'https://still-mood.vercel.app/',
     image: still, 
   },
   {
