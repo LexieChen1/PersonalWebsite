@@ -86,7 +86,8 @@ export default function About() {
               <div>
                 <h4 className="text-blue-400 font-bold">University of Virginia</h4>
                 <p className="text-gray-300">
-                  B.A. in Computer Science, Minor in Data Science · 2023 – Present
+                  B.A. in Computer Science, Minor in Data Science 
+                  2023 – Present
                 </p>
                 <p className="text-sm text-blue-400">Dean’s List (2024)</p>
               </div>
