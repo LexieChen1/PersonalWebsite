@@ -9,7 +9,7 @@ export default function About() {
         {/* Left: Profile Image */}
         <div className="flex justify-center">
           <img
-            src= "/pfp.JPG"
+            src= "/pfp.jpg"
             alt="Lexie"
             className="w-full max-w-sm object-contain"
           />
@@ -19,7 +19,7 @@ export default function About() {
         <div className="md:col-span-2 border-l border-gray-600 pl-10 space-y-6">
           <h2 className="text-5xl mb-10 font-marker">ABOUT ME</h2>
           <p className="text-gray-300">
-            I'm a Computer Science student passionate about full-stack development and user-centered design.
+            Hi there! My name is Lexie 陈欣雯， I'm a Computer Science student passionate about full-stack development and user-centered design.
             I combine creativity and technical skill to build intuitive web applications.
           </p>
 
@@ -86,8 +86,7 @@ export default function About() {
               <div>
                 <h4 className="text-blue-400 font-bold">University of Virginia</h4>
                 <p className="text-gray-300">
-                  B.A. in Computer Science, Minor in Data Science 
-                  2023 – Present
+                  B.A. in Computer Science, Minor in Data Science 2023 – Present
                 </p>
                 <p className="text-sm text-blue-400">Dean’s List (2024)</p>
               </div>
