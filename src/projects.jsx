@@ -27,21 +27,22 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-background text-black py-16 px-6">
-      <h2 className="text-4xl font-bold font-mono text-center mb-12">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    <section id="projects" className="bg-black text-white px-4 py-5">
+      <h2 className="text-5xl font-marker mb-9 text-center">PROJECTS</h2>
+
+      <div className="grid md:grid-cols-3 gap-6 px-4 sm:px-10 w-full">
         {projects.map((proj) => (
           <a
             key={proj.title}
             href={proj.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="border rounded-lg overflow-hidden shadow hover:shadow-xl transition"
+            className="border border-gray-700 rounded-md overflow-hidden hover:shadow-lg transition"
           >
-            <img src={proj.image} alt={proj.title} className="w-full h-60 object-cover" />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold">{proj.title}</h3>
-              <p className="text-gray-600 mt-2">{proj.description}</p>
+            <img src={proj.image} alt={proj.title} className="w-full h-80 object-cover" />
+            <div className="p-3">
+              <h3 className="text-lg font-semibold">{proj.title}</h3>
+              <p className="text-gray-300 mt-1 text-sm">{proj.description}</p>
             </div>
           </a>
         ))}
