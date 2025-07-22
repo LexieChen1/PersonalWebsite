@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import profilePic from '../src/assets/pfp.jpg';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("Skills");
@@ -10,7 +9,7 @@ export default function About() {
         {/* Left: Profile Image */}
         <div className="flex justify-center">
           <img
-            src={profilePic}
+            src= "/pfp.jpg"
             alt="Lexie"
             className="w-full max-w-sm object-contain"
           />
