@@ -19,8 +19,14 @@ export default function About() {
         <div className="md:col-span-2 border-l border-gray-600 pl-10 space-y-6">
           <h2 className="text-5xl mb-10 font-marker">ABOUT ME</h2>
           <p className="text-gray-300">
-            Hi there! My name is Lexie 陈欣雯， I'm a Computer Science student passionate about full-stack development and user-centered design.
-            I combine creativity and technical skill to build intuitive web applications.
+            Hi there! My name is Lexie - 陈欣雯. I'm a third year Computer Science student at the University of Virginia, graduating in May 2027. I'm passionate about full-stack development and user-centered design.
+            I'm also drawn to the intersection of business and tech, and I'm exploring roles like product and project management in the tech space.
+          </p>
+          <p className="text-gray-300">
+            I'm currently seeking internship opportunities in software development or data analysis.         
+          </p>
+          <p className="text-gray-300">
+            Outside of tech, you can find me experimenting with new recipes, going out with friends, capturing moments through photography, meditating, journaling, or enjoying a good movie.
           </p>
 
           {/* Tab Bar */}
@@ -47,25 +53,25 @@ export default function About() {
                 <div>
                   <h4 className="text-blue-400 font-bold">Programming Languages</h4>
                   <p className="text-gray-300">
-                    Python, Java, C, C++, C#, Swift, JavaScript, TypeScript, SQL
+                    Python, Java, C++, Swift, JavaScript, TypeScript, SQL
                   </p>
                 </div>
                 <div>
                   <h4 className="text-blue-400 font-bold">Web Development & Frameworks</h4>
                   <p className="text-gray-300">
-                    HTML, CSS, Django, React, React Native, Angular, JUnit, SnapKit
+                   HTML, CSS, React, React Native, Angular, Node.js, Spring Boot, Django, Express, Tailwind CSS, JUnit, SnapKit
                   </p>
                 </div>
                 <div>
                   <h4 className="text-blue-400 font-bold">Data Engineering, Cloud, & Tools</h4>
                   <p className="text-gray-300">
-                    PySpark, Snowflake, AWS S3, Kafka, Git, Agile, Heroku, SQLite, Adobe, LaTeX
+                    PostgreSQL, MongoDB, AWS S3, Kafka, Git, Docker, Firebase, SQLite, Adobe Suite, LaTeX
                   </p>
                 </div>
                 <div>
                   <h4 className="text-blue-400 font-bold">Data Analysis & Machine Learning</h4>
                   <p className="text-gray-300">
-                    K-Means, MDS, Logistic Regression, PCA, Power BI
+                    K-Means, MDS, Logistic Regression, Power BI
                   </p>
                 </div>
               </>
