@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import profilePic from './assets/pfp.jpg';
+import profilePic from '../src/assets/pfp.jpg';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("Skills");
