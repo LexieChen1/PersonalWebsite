@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -44,6 +45,11 @@ export default function Home() {
         className="relative w-screen h-screen bg-background text-text flex flex-col items-center justify-center space-y-10 overflow-hidden"
         style={{ backgroundImage: "url('/desktop.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
+        <img
+          src="/signature.png"
+          alt="Signature"
+          className="absolute top-4 right-4 z-40 w-72 h-auto"
+        />
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
