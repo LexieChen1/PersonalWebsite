@@ -9,7 +9,7 @@ export default function About() {
         {/* Left: Profile Image */}
         <div className="flex justify-center">
           <img
-            src= "/pfp.jpg"
+            src= "/pfp.JPG"
             alt="Lexie"
             className="w-full max-w-sm object-contain"
           />
